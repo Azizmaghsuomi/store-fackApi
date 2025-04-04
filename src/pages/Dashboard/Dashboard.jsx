@@ -54,7 +54,7 @@ const Dashboard = () => {
                 </div>
                 <ListItemText
                   primary={
-                    <p className="font-bold">{`welcome , ${data?.data?.email}!`}</p>
+                    <div className="font-bold">{`welcome , ${data?.data?.email}!`}</div>
                   }
                   secondary={
                     <div className="flex flex-col gap-4 mt-4">
