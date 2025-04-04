@@ -19,7 +19,7 @@ const loginSchema = z
       (data.avatar = `https://avatar.iran.liara.run/public/${data.gender}`)
   );
 
-const LoginForm = () => {
+const SignupForm = () => {
   const navigate = useNavigate();
   const { access_token } = useStore();
   const {
@@ -126,4 +126,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default SignupForm;
