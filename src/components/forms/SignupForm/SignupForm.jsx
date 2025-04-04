@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { Link, useNavigate } from "react-router-dom";
-import createUserApi from "../../../utils/apis/users/createuserApi";
+import createUserApi from "../../../utils/apis/users/createUserApi";
 import { toast } from "react-toastify";
 import useStore from "../../../store";
 const loginSchema = z
